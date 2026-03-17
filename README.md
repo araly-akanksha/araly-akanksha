@@ -1,16 +1,45 @@
-## Hi there 👋
+# 👋 Hi, I'm Akanksha Naidu
 
-<!--
-**araly-akanksha/araly-akanksha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 MSc Big Data Analytics Student
+📍 India
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 About Me
+
+* Passionate about Data Analytics & Machine Learning
+* Strong in Python, SQL, and Statistics
+* Interested in solving real-world problems using data
+
+---
+
+## 🛠️ Skills
+
+* Programming: Python, SQL
+* Libraries: Pandas, NumPy, Scikit-learn
+* Tools: Excel, Power BI (learning), GitHub
+* Concepts: Data Analysis, Machine Learning, Statistics
+
+---
+
+## 📊 Projects
+
+🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/statistics-project)
+
+---
+
+## 🌱 Currently Learning
+
+* Advanced Machine Learning
+* Data Visualization
+* Big Data Tools
+
+---
+
+## 📫 Connect With Me
+
+* LinkedIn: (Add your link here)
+
+---
+
+⭐ *Always learning and building in Data Analytics*
