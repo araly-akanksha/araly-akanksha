@@ -38,7 +38,7 @@
 
 ## 📫 Connect With Me
 
-* LinkedIn: (Add your link here)
+* LinkedIn: linkedin.com/in/araly-akanksha-naidu
 
 ---
 
