@@ -24,7 +24,7 @@
 
 ## 📊 Projects
 
-🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/statistics-project)
+🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
 
 ---
 
