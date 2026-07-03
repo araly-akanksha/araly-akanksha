@@ -24,6 +24,10 @@
 
 ## 📊 Projects
 
+🔹 [PawKart](https://github.com/araly-akanksha/SheWorks)
+
+🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
+
 🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
 
 🔹 [Classification of Emotions From Text](https://github.com/araly-akanksha/Emotion-Classification-from-Text-using-Classical-Machine-Learning)
