@@ -26,7 +26,7 @@
 
 🔹 [PawKart](https://github.com/araly-akanksha/PawKart)
 
-🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
+🔹 [Koramangala-Smart-Delivery](https://github.com/araly-akanksha/SheWorks)
 
 🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
 
