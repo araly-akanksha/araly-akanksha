@@ -26,11 +26,11 @@
 
 🔹 [PawKart](https://github.com/araly-akanksha/PawKart)
 
-🔹 [Koramangala-Smart-Delivery](https://github.com/araly-akanksha/SheWorks)
-
-🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
+🔹 [Koramangala-Smart-Delivery](https://github.com/araly-akanksha/Koramangala-Smart-Delivery)
 
 🔹 [Classification of Emotions From Text](https://github.com/araly-akanksha/Emotion-Classification-from-Text-using-Classical-Machine-Learning)
+
+🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
 
 ---
 
