@@ -24,7 +24,7 @@
 
 ## 📊 Projects
 
-🔹 [PawKart](https://github.com/araly-akanksha/SheWorks)
+🔹 [PawKart](https://github.com/araly-akanksha/PawKart)
 
 🔹 [SheWorks - Women Employment Platform](https://github.com/araly-akanksha/SheWorks)
 
