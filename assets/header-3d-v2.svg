@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%">
+  <defs>
+    <!-- Deep Space Radial Background -->
+    <radialGradient id="bg" cx="30%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#13103a"/>
+      <stop offset="45%" stop-color="#080c18"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </radialGradient>
+
+    <!-- Premium Gradient Accents -->
+    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="33%" stop-color="#818cf8"/>
+      <stop offset="66%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <!-- Solid Opaque Backdrop for Floating Badge -->
+    <linearGradient id="badge-solid-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#080d1a"/>
+    </linearGradient>
+
+    <!-- Glass Fills -->
+    <linearGradient id="glass-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(56,189,248,0.16)"/>
+      <stop offset="100%" stop-color="rgba(56,189,248,0.05)"/>
+    </linearGradient>
+
+    <linearGradient id="glass-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(192,132,252,0.16)"/>
+      <stop offset="100%" stop-color="rgba(192,132,252,0.05)"/>
+    </linearGradient>
+
+    <linearGradient id="glass-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(251,191,36,0.16)"/>
+      <stop offset="100%" stop-color="rgba(251,191,36,0.05)"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="f-glow-xl" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="f-glow-md" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="f-glow-sm" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="f-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#000" flood-opacity="0.8"/>
+    </filter>
+    <filter id="f-shadow-sm" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1000" height="480" rx="28" fill="url(#bg)"/>
+
+  <!-- Subtle hex grid -->
+  <g opacity="0.07">
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="1.2" fill="#818cf8"/>
+    </pattern>
+    <rect width="1000" height="480" rx="28" fill="url(#dots)"/>
+  </g>
+
+  <!-- Volumetric lights -->
+  <ellipse cx="180" cy="140" rx="280" ry="200" fill="#3b82f6" opacity="0.12" filter="url(#f-glow-xl)"/>
+  <ellipse cx="820" cy="360" rx="260" ry="190" fill="#a855f7" opacity="0.14" filter="url(#f-glow-xl)"/>
+  <ellipse cx="560" cy="80" rx="180" ry="120" fill="#06b6d4" opacity="0.08" filter="url(#f-glow-xl)"/>
+  <ellipse cx="400" cy="440" rx="220" ry="80" fill="#6d28d9" opacity="0.10" filter="url(#f-glow-xl)"/>
+
+  <!-- Constellation Neural Network (Right Side) -->
+  <g transform="translate(636, 45)">
+    <!-- Constellation edges -->
+    <g stroke="url(#aurora)" stroke-width="1.5" opacity="0.5" fill="none">
+      <line x1="158" y1="28" x2="82" y2="88"/>
+      <line x1="158" y1="28" x2="252" y2="82"/>
+      <line x1="158" y1="28" x2="168" y2="130"/>
+      <line x1="82" y1="88" x2="168" y2="130"/>
+      <line x1="252" y1="82" x2="168" y2="130"/>
+      <line x1="82" y1="88" x2="58" y2="180"/>
+      <line x1="168" y1="130" x2="58" y2="180"/>
+      <line x1="168" y1="130" x2="260" y2="196"/>
+      <line x1="252" y1="82" x2="310" y2="150"/>
+      <line x1="310" y1="150" x2="260" y2="196"/>
+      <line x1="58" y1="180" x2="120" y2="245"/>
+      <line x1="260" y1="196" x2="200" y2="250"/>
+    </g>
+
+    <!-- Bioacoustic waveform bars (Shifted up to Y=215 so bars end at Y=285) -->
+    <g transform="translate(30, 215)" filter="url(#f-glow-sm)">
+      <rect x="0"  y="18" width="6" height="22" rx="3" fill="#38bdf8"/>
+      <rect x="12" y="8"  width="6" height="42" rx="3" fill="#818cf8"/>
+      <rect x="24" y="0"  width="6" height="58" rx="3" fill="#c084fc"/>
+      <rect x="36" y="12" width="6" height="32" rx="3" fill="#38bdf8"/>
+      <rect x="48" y="22" width="6" height="12" rx="3" fill="#34d399"/>
+      <rect x="60" y="4"  width="6" height="48" rx="3" fill="#fbbf24"/>
+      <rect x="72" y="14" width="6" height="28" rx="3" fill="#818cf8"/>
+      <rect x="84" y="26" width="6" height="6"  rx="3" fill="#38bdf8"/>
+      <text x="46" y="74" font-family="'Segoe UI', sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle" letter-spacing="1">BIOACOUSTIC SIGNAL</text>
+    </g>
+
+    <!-- Orbital rings around hub -->
+    <ellipse cx="168" cy="130" rx="54" ry="20" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.4" transform="rotate(-20 168 130)"/>
+    <ellipse cx="168" cy="130" rx="62" ry="18" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.3" transform="rotate(30 168 130)"/>
+
+    <!-- Constellation nodes -->
+    <g filter="url(#f-glow-sm)">
+      <circle cx="82"  cy="88"  r="7"  fill="#38bdf8" opacity="0.9"/>
+      <circle cx="252" cy="82"  r="6"  fill="#c084fc" opacity="0.9"/>
+      <circle cx="58"  cy="180" r="7"  fill="#34d399" opacity="0.9"/>
+      <circle cx="310" cy="150" r="6"  fill="#fbbf24" opacity="0.9"/>
+      <circle cx="260" cy="196" r="7"  fill="#818cf8" opacity="0.9"/>
+      <circle cx="120" cy="245" r="5"  fill="#38bdf8" opacity="0.7"/>
+      <circle cx="200" cy="250" r="5"  fill="#c084fc" opacity="0.7"/>
+    </g>
+
+    <!-- Central AI Hub node -->
+    <circle cx="168" cy="130" r="36" fill="#030712" opacity="0.9"/>
+    <circle cx="168" cy="130" r="36" fill="none" stroke="url(#aurora)" stroke-width="2.5" filter="url(#f-glow-md)"/>
+    <circle cx="168" cy="130" r="22" fill="url(#glass-blue)" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="168" cy="130" r="10" fill="#38bdf8" filter="url(#f-glow-sm)"/>
+
+    <!-- Top Node -->
+    <circle cx="158" cy="28" r="16" fill="#030712"/>
+    <circle cx="158" cy="28" r="16" fill="none" stroke="#38bdf8" stroke-width="2" filter="url(#f-glow-sm)"/>
+    <circle cx="158" cy="28" r="7" fill="#38bdf8"/>
+
+    <!-- Solid Opaque Floating Badge at Y=335 (45+335=380, zero overlap with Y=289) -->
+    <g transform="translate(24, 335)" filter="url(#f-shadow)">
+      <rect x="0" y="0" width="280" height="54" rx="27" fill="url(#badge-solid-bg)" stroke="#38bdf8" stroke-width="1.5"/>
+      <circle cx="30" cy="27" r="15" fill="rgba(52,211,153,0.2)" stroke="#34d399" stroke-width="1.5"/>
+      <polygon points="30,18 38,22 38,32 30,36 22,32 22,22" fill="none" stroke="#34d399" stroke-width="1.5"/>
+      <circle cx="30" cy="27" r="2.5" fill="#34d399"/>
+      <text x="56" y="23" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fff">Bioacoustic AI Research</text>
+      <text x="56" y="39" font-family="'Segoe UI', sans-serif" font-size="10.5" fill="#94a3b8">CNN • CRNN • SHAP • Grad-CAM</text>
+    </g>
+  </g>
+
+  <!-- Left Content Area -->
+  <g transform="translate(58, 58)">
+
+    <!-- Live Dot Badge (Container width widened to 425px for generous margin) -->
+    <g filter="url(#f-shadow-sm)">
+      <rect x="0" y="0" width="425" height="38" rx="19" fill="url(#glass-blue)" stroke="rgba(56,189,248,0.6)" stroke-width="1.5"/>
+      <circle cx="20" cy="19" r="5.5" fill="#34d399" filter="url(#f-glow-sm)"/>
+      <text x="36" y="24" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="800" letter-spacing="1" fill="#38bdf8">MSc BIG DATA ANALYTICS  ·  SJU BANGALORE</text>
+    </g>
+
+    <!-- Name -->
+    <text x="2" y="116" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="50" font-weight="900" fill="#1e3a5f" letter-spacing="-1" filter="url(#f-shadow)">Araly Akanksha Naidu</text>
+    <text x="0" y="114" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="50" font-weight="900" fill="#ffffff" letter-spacing="-1">Araly Akanksha Naidu</text>
+
+    <!-- Gradient Subtitle -->
+    <text x="0" y="153" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="url(#aurora)" filter="url(#f-glow-sm)">Data Scientist  ·  Deep Learning Researcher</text>
+
+    <!-- Description -->
+    <g fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="14.5">
+      <text x="0" y="193">Triple-Major in Computer Science, Statistics &amp; Economics.</text>
+      <text x="0" y="215">Bioacoustic CNN/CRNN  ·  EfficientNetV2  ·  XAI (SHAP, LIME, Grad-CAM).</text>
+    </g>
+
+    <!-- 3 Stat Chips -->
+    <g transform="translate(0, 240)" filter="url(#f-shadow-sm)">
+      <!-- Chip 1: Python / SQL -->
+      <rect x="0" y="0" width="148" height="48" rx="16" fill="url(#glass-blue)" stroke="rgba(56,189,248,0.45)" stroke-width="1.5"/>
+      <circle cx="24" cy="24" r="10" fill="rgba(56,189,248,0.2)" stroke="#38bdf8" stroke-width="1.5"/>
+      <path d="M 21 21 L 27 27 M 27 21 L 21 27" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="44" y="21" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fff">Python / SQL</text>
+      <text x="44" y="36" font-family="'Segoe UI', sans-serif" font-size="10" fill="#38bdf8">Core Languages</text>
+
+      <!-- Chip 2: PyTorch / TF -->
+      <rect x="162" y="0" width="148" height="48" rx="16" fill="url(#glass-purple)" stroke="rgba(192,132,252,0.45)" stroke-width="1.5"/>
+      <circle cx="186" cy="24" r="10" fill="rgba(192,132,252,0.2)" stroke="#c084fc" stroke-width="1.5"/>
+      <polygon points="186,18 192,28 180,28" fill="#c084fc"/>
+      <text x="206" y="21" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fff">PyTorch / TF</text>
+      <text x="206" y="36" font-family="'Segoe UI', sans-serif" font-size="10" fill="#c084fc">Deep Learning</text>
+
+      <!-- Chip 3: SHAP / LIME -->
+      <rect x="324" y="0" width="148" height="48" rx="16" fill="url(#glass-gold)" stroke="rgba(251,191,36,0.45)" stroke-width="1.5"/>
+      <circle cx="348" cy="24" r="10" fill="rgba(251,191,36,0.2)" stroke="#fbbf24" stroke-width="1.5"/>
+      <circle cx="348" cy="24" r="4" fill="#fbbf24"/>
+      <text x="368" y="21" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#fff">SHAP / LIME</text>
+      <text x="368" y="36" font-family="'Segoe UI', sans-serif" font-size="10" fill="#fbbf24">Explainable AI</text>
+    </g>
+
+    <!-- Location Row -->
+    <g transform="translate(0, 330)">
+      <circle cx="6" cy="-4" r="3" fill="#38bdf8"/>
+      <text x="14" y="0" font-family="'Segoe UI', sans-serif" font-size="13" fill="#94a3b8">
+        Bangalore, India    ·    St. Joseph's University    ·    Open to AI / ML Roles
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Aurora Bar -->
+  <rect x="0" y="472" width="1000" height="8" rx="4" fill="url(#aurora)" filter="url(#f-glow-sm)"/>
+
+  <!-- Viewfinder Corners -->
+  <g stroke="url(#aurora)" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M 18 18 L 18 42 M 18 18 L 42 18"/>
+    <path d="M 982 18 L 982 42 M 982 18 L 958 18"/>
+    <path d="M 18 462 L 18 438 M 18 462 L 42 462"/>
+    <path d="M 982 462 L 982 438 M 982 462 L 958 462"/>
+  </g>
+</svg>
