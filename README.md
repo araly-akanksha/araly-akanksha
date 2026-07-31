@@ -3,7 +3,7 @@
 <!-- ══════════════════════════════════════════════════
      CINEMATIC 3D HEADER BANNER
 ══════════════════════════════════════════════════ -->
-<img src="assets/header-3d.svg" alt="Araly Akanksha Naidu" width="100%"/>
+<img src="assets/header-3d.svg?v=v3" alt="Araly Akanksha Naidu" width="100%"/>
 
 <br/>
 
