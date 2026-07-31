@@ -1,20 +1,20 @@
 <div align="center">
 
-  <!-- 3D Glassmorphic Main Banner -->
+  <!-- 3D Glassmorphic Master Header -->
   <img src="assets/header-3d.svg" alt="Araly Akanksha Naidu Banner" width="100%" />
 
   <br/><br/>
 
-  <!-- Dynamic Typing Header SVG -->
+  <!-- Dynamic Animated Typing Header SVG -->
   <a href="https://github.com/araly-akanksha">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi+%F0%9F%90%9D%2C+I%27m+Araly+Akanksha+Naidu!;Data+Scientist+%26+MSc+Big+Data+Analytics+Student+%F0%9F%93%8A;Deep+Learning+%26+Bioacoustics+Specialist+%F0%9F%A7%A0;Explainable+AI+Enthusiast+(SHAP%2C+LIME%2C+Grad-CAM)+%F0%9F%92%A1;Triple+Major+in+CS%2C+Statistics+%26+Economics+%F0%9F%8E%93" alt="Typing SVG" />
   </a>
 
   <br/><br/>
 
-  <!-- Quick Live Badges -->
+  <!-- Quick Action Badges -->
   <p align="center">
-    <a href="https://linkedin.com/in/araly-akanksha-naidu">
+    <a href="https://linkedin.com/in/araly-akanksha-naidu" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
     <a href="mailto:aralyakankshan@gmail.com">
@@ -31,16 +31,16 @@
 
 ---
 
-## ⚡ About Me
+## ⚡ About Me & Technical Philosophy
 
-<p align="left">
-I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at St. Joseph's University, Bangalore, with a strong triple-major foundation in <b>Computer Science, Statistics, and Economics</b> (BSc from Andhra Loyola College).
-</p>
+> *"Data is a story waiting to be told—my mission is to make deep learning models transparent, interpretable, and directly actionable for real-world impact."*
+
+I am a **Data Scientist and MSc Big Data Analytics student** at St. Joseph's University, Bangalore. With a rigorous triple-major foundation in **Computer Science, Statistics, and Economics** from Andhra Loyola College, I bridge the gap between mathematical rigor, software engineering, and analytical decision-making.
 
 - 🎓 **Current Academic Pursuits**: MSc in Big Data Analytics @ St. Joseph's University, Bangalore.
-- 🧠 **Technical Focus**: Deep Learning (CNN/CRNN architectures, Transfer Learning with EfficientNetV2), Bioacoustics, and Explainable AI (SHAP, LIME, Grad-CAM).
-- 📊 **Analytics Expertise**: End-to-end data pipeline design — from statistical hypothesis testing & data cleaning to predictive ML modeling & executive visualization.
-- 🎯 **Career Goal**: Seeking Data Scientist / Data Analyst opportunities to apply analytical rigor, machine learning, and business acumen to solve impactful real-world challenges.
+- 🧠 **Technical Focus**: Deep Learning (CNN/CRNN architectures, Transfer Learning with EfficientNetV2), Bioacoustic Signal Classification, and Explainable AI (SHAP, LIME, Grad-CAM).
+- 📊 **Analytics Pipeline**: End-to-end expertise — from raw audio/text/image data preprocessing and statistical hypothesis testing to predictive ML modeling & executive dashboarding.
+- 🎯 **Career Goal**: Seeking Data Scientist / Data Analyst roles to build trustworthy, high-performing AI systems that solve complex business and scientific challenges.
 
 ---
 
@@ -48,7 +48,7 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
 
 <div align="center">
 
-### 💻 Programming & Databases
+### 💻 Programming Languages & Databases
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
@@ -74,7 +74,7 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
   <img src="https://img.shields.io/badge/Grad--CAM-Visual%20Attribution-34D399?style=for-the-badge" alt="Grad-CAM"/>
 </p>
 
-### 📈 Data Science & Analytics
+### 📈 Data Science & Analytics Tools
 <p>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
@@ -94,7 +94,7 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Best Work Showcase
 
 <table width="100%">
   <tr>
@@ -323,7 +323,7 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
   <h3>📫 Let's Connect &amp; Collaborate!</h3>
   
   <p>
-    <a href="https://linkedin.com/in/araly-akanksha-naidu">
+    <a href="https://linkedin.com/in/araly-akanksha-naidu" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Araly%20Akanksha%20Naidu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
     <a href="mailto:aralyakankshan@gmail.com">
