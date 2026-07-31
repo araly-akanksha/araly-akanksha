@@ -1,85 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 310" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" width="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="xai-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080c14"/>
-      <stop offset="50%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#19173c"/>
-    </linearGradient>
+    <radialGradient id="bg2" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="60%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </radialGradient>
 
-    <!-- Connector Flow Gradient -->
-    <linearGradient id="flow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="flow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="50%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
 
-    <!-- Glass Card Gradient -->
-    <linearGradient id="glass-card" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.09)"/>
-      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    <linearGradient id="card-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(56,189,248,0.14)"/>
+      <stop offset="100%" stop-color="rgba(56,189,248,0.03)"/>
     </linearGradient>
 
-    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    <linearGradient id="card-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(192,132,252,0.14)"/>
+      <stop offset="100%" stop-color="rgba(192,132,252,0.03)"/>
+    </linearGradient>
+
+    <linearGradient id="card-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(52,211,153,0.14)"/>
+      <stop offset="100%" stop-color="rgba(52,211,153,0.03)"/>
+    </linearGradient>
+
+    <filter id="gl" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <filter id="glow-light" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity="0.65"/>
     </filter>
   </defs>
 
-  <!-- Container Base -->
-  <rect width="920" height="310" rx="18" fill="url(#xai-bg)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <!-- Base -->
+  <rect width="1000" height="310" rx="20" fill="url(#bg2)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
 
-  <!-- Section Header -->
-  <text x="460" y="40" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#38bdf8" text-anchor="middle" letter-spacing="2">
-    ANALYTICS &amp; EXPLAINABLE AI (XAI) PIPELINE
+  <!-- Top glow -->
+  <ellipse cx="500" cy="0" rx="400" ry="80" fill="#6d28d9" opacity="0.18" filter="url(#gl)"/>
+
+  <!-- Header -->
+  <text x="500" y="42" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" letter-spacing="3" fill="#818cf8">ANALYTICS → DEEP LEARNING → EXPLAINABILITY</text>
+
+  <!-- Flow line with arrow heads -->
+  <line x1="88" y1="170" x2="348" y2="170" stroke="url(#flow)" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="348,163 362,170 348,177" fill="#818cf8"/>
+  <line x1="638" y1="170" x2="898" y2="170" stroke="url(#flow)" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="898,163 912,170 898,177" fill="#34d399"/>
+
+  <!-- Card 1: Data & Bioacoustics -->
+  <g transform="translate(28, 68)" filter="url(#sh)">
+    <rect width="300" height="190" rx="18" fill="url(#card-1)" stroke="rgba(56,189,248,0.5)" stroke-width="1.5"/>
+    <!-- Icon circle -->
+    <circle cx="150" cy="52" r="28" fill="rgba(56,189,248,0.15)" stroke="#38bdf8" stroke-width="2" filter="url(#gl)"/>
+    <text x="150" y="59" text-anchor="middle" font-size="22" fill="#fff">🎙️</text>
+    <!-- Step number -->
+    <rect x="12" y="10" width="28" height="20" rx="6" fill="rgba(56,189,248,0.3)"/>
+    <text x="26" y="24" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#38bdf8">01</text>
+    <!-- Content -->
+    <text x="150" y="102" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#fff">Data &amp; Bioacoustics</text>
+    <text x="150" y="124" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">Audio signal processing</text>
+    <text x="150" y="140" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">Spectrograms &amp; cleaning</text>
+    <!-- Tech tags -->
+    <rect x="20"  y="158" width="76"  height="20" rx="10" fill="rgba(56,189,248,0.2)"/>
+    <text x="58"  y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#38bdf8">Pandas</text>
+    <rect x="104" y="158" width="76"  height="20" rx="10" fill="rgba(56,189,248,0.2)"/>
+    <text x="142" y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#38bdf8">Librosa</text>
+    <rect x="188" y="158" width="76"  height="20" rx="10" fill="rgba(56,189,248,0.2)"/>
+    <text x="226" y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#38bdf8">NumPy</text>
+  </g>
+
+  <!-- Card 2: Deep Learning -->
+  <g transform="translate(350, 68)" filter="url(#sh)">
+    <rect width="300" height="190" rx="18" fill="url(#card-2)" stroke="rgba(192,132,252,0.5)" stroke-width="1.5"/>
+    <circle cx="150" cy="52" r="28" fill="rgba(192,132,252,0.15)" stroke="#c084fc" stroke-width="2" filter="url(#gl)"/>
+    <text x="150" y="59" text-anchor="middle" font-size="22" fill="#fff">🧠</text>
+    <rect x="12" y="10" width="28" height="20" rx="6" fill="rgba(192,132,252,0.3)"/>
+    <text x="26" y="24" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#c084fc">02</text>
+    <text x="150" y="102" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#fff">Deep Learning</text>
+    <text x="150" y="124" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">CNN / CRNN architectures</text>
+    <text x="150" y="140" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">EfficientNetV2 Transfer</text>
+    <rect x="20"  y="158" width="76"  height="20" rx="10" fill="rgba(192,132,252,0.2)"/>
+    <text x="58"  y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#c084fc">PyTorch</text>
+    <rect x="104" y="158" width="88"  height="20" rx="10" fill="rgba(192,132,252,0.2)"/>
+    <text x="148" y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#c084fc">TensorFlow</text>
+    <rect x="200" y="158" width="76"  height="20" rx="10" fill="rgba(192,132,252,0.2)"/>
+    <text x="238" y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#c084fc">OpenCV</text>
+  </g>
+
+  <!-- Card 3: XAI & Insights -->
+  <g transform="translate(672, 68)" filter="url(#sh)">
+    <rect width="300" height="190" rx="18" fill="url(#card-3)" stroke="rgba(52,211,153,0.5)" stroke-width="1.5"/>
+    <circle cx="150" cy="52" r="28" fill="rgba(52,211,153,0.15)" stroke="#34d399" stroke-width="2" filter="url(#gl)"/>
+    <text x="150" y="59" text-anchor="middle" font-size="22" fill="#fff">💡</text>
+    <rect x="12" y="10" width="28" height="20" rx="6" fill="rgba(52,211,153,0.3)"/>
+    <text x="26" y="24" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#34d399">03</text>
+    <text x="150" y="102" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#fff">XAI &amp; Insights</text>
+    <text x="150" y="124" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">Feature attribution maps</text>
+    <text x="150" y="140" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">Trustworthy AI decisions</text>
+    <rect x="20"  y="158" width="64"  height="20" rx="10" fill="rgba(52,211,153,0.2)"/>
+    <text x="52"  y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#34d399">SHAP</text>
+    <rect x="92"  y="158" width="64"  height="20" rx="10" fill="rgba(52,211,153,0.2)"/>
+    <text x="124" y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#34d399">LIME</text>
+    <rect x="164" y="158" width="100" height="20" rx="10" fill="rgba(52,211,153,0.2)"/>
+    <text x="214" y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#34d399">Grad-CAM</text>
+  </g>
+
+  <!-- Footer tagline -->
+  <text x="500" y="285" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#4b5563" font-style="italic">
+    Building transparent, high-impact AI — from raw signal to interpretable decisions.
   </text>
-  <line x1="310" y1="50" x2="610" y2="50" stroke="url(#flow-grad)" stroke-width="2.5"/>
 
-  <!-- Connecting Flow Lines -->
-  <path d="M 180 165 L 340 165 M 480 165 L 640 165" stroke="url(#flow-grad)" stroke-width="3" stroke-dasharray="6,6"/>
-
-  <!-- Step 1: Raw Data & Bioacoustics -->
-  <g transform="translate(45, 80)" filter="url(#card-shadow)">
-    <rect x="0" y="0" width="225" height="175" rx="14" fill="url(#glass-card)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.5"/>
-    <circle cx="112" cy="42" r="22" fill="rgba(56, 189, 248, 0.2)" stroke="#38bdf8" stroke-width="2" filter="url(#glow-light)"/>
-    <text x="112" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🎙️</text>
-    
-    <text x="112" y="88" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">1. Data &amp; Bioacoustics</text>
-    <text x="112" y="113" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Audio Signal Processing</text>
-    <text x="112" y="129" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Spectrograms &amp; Cleaning</text>
-    <text x="112" y="147" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#38bdf8" font-weight="600" text-anchor="middle">Pandas • NumPy • Librosa</text>
-  </g>
-
-  <!-- Step 2: Deep Learning Architectures -->
-  <g transform="translate(347, 80)" filter="url(#card-shadow)">
-    <rect x="0" y="0" width="225" height="175" rx="14" fill="url(#glass-card)" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1.5"/>
-    <circle cx="112" cy="42" r="22" fill="rgba(192, 132, 252, 0.2)" stroke="#c084fc" stroke-width="2" filter="url(#glow-light)"/>
-    <text x="112" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🧠</text>
-    
-    <text x="112" y="88" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">2. Deep Learning</text>
-    <text x="112" y="113" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">CNN / CRNN Architectures</text>
-    <text x="112" y="129" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">EfficientNetV2 Transfer</text>
-    <text x="112" y="147" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#c084fc" font-weight="600" text-anchor="middle">PyTorch • TensorFlow</text>
-  </g>
-
-  <!-- Step 3: Explainable AI & Insights -->
-  <g transform="translate(650, 80)" filter="url(#card-shadow)">
-    <rect x="0" y="0" width="225" height="175" rx="14" fill="url(#glass-card)" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1.5"/>
-    <circle cx="112" cy="42" r="22" fill="rgba(52, 211, 153, 0.2)" stroke="#34d399" stroke-width="2" filter="url(#glow-light)"/>
-    <text x="112" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">💡</text>
-    
-    <text x="112" y="88" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">3. XAI &amp; Insights</text>
-    <text x="112" y="113" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Feature Attribution Maps</text>
-    <text x="112" y="129" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Trustworthy AI Decisions</text>
-    <text x="112" y="147" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#34d399" font-weight="600" text-anchor="middle">SHAP • LIME • Grad-CAM</text>
-  </g>
-
-  <!-- Bottom Accent Tagline -->
-  <text x="460" y="285" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="middle">
-    Building transparent, high-performing AI solutions from raw data to interpretable business value.
-  </text>
+  <!-- Bottom accent line -->
+  <rect x="0" y="303" width="1000" height="7" rx="3.5" fill="url(#flow)" filter="url(#gl)"/>
 </svg>
