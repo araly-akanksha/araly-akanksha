@@ -29,29 +29,29 @@
 
 <img src="assets/divider.svg" width="100%"/>
 
-## ⚡ Philosophy & Who I Am
+## ⚡ About Me
 
 <table width="100%">
 <tr>
 <td width="60%" valign="top">
 
-> *"I believe every model must not only perform — it must explain itself. My work lives at the intersection of deep learning, bioacoustics, and transparency."*
+> *"Turning complex data into clear, explainable, and practical AI solutions."*
 
-I am a **Data Scientist and MSc Big Data Analytics student** at **St. Joseph's University, Bangalore**, with a rare triple-major foundation in **Computer Science, Statistics, and Economics** from Andhra Loyola College.
+I am an **MSc Big Data Analytics student** at **St. Joseph's University, Bangalore**, with a background in **Computer Science, Statistics, and Economics** from Andhra Loyola College.
 
-I design end-to-end intelligent systems — from raw bioacoustic recordings to CNN/CRNN classifiers, to Explainable AI layers that surface *why* a model behaves the way it does. I combine mathematical rigour, software engineering, and analytical thinking to solve problems that matter.
+I build machine learning models and data pipelines — specializing in audio deep learning, computer vision, and explainable AI (XAI) to ensure models are accurate, transparent, and easy to understand.
 
 </td>
 <td width="40%" align="center" valign="top">
 
-**🎯 Quick Stats**
+**🎯 Quick Summary**
 
 | | |
 |:--|:--|
 | 🎓 Degree | MSc Big Data Analytics |
 | 🏛️ University | St. Joseph's Univ., Bangalore |
-| 🧠 Focus | Bioacoustic AI · XAI · DL |
-| 📈 Best Result | 92% NLP Classification Accuracy |
+| 🧠 Focus | Deep Learning & Explainable AI |
+| 📈 Highlight | 92% NLP Classification Model |
 | 🏀 Achievement | Inter-Collegiate Basketball Champion 🥇 |
 | 🌍 Location | Bangalore, India |
 
@@ -61,7 +61,7 @@ I design end-to-end intelligent systems — from raw bioacoustic recordings to C
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 🛠️ Tech Stack & Expertise
+## 🛠️ Tech Stack & Skills
 
 <div align="center">
 
@@ -79,7 +79,7 @@ I design end-to-end intelligent systems — from raw bioacoustic recordings to C
 
 <br/>
 
-**Deep Learning & ML**<br/>
+**Deep Learning & Machine Learning**<br/>
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
@@ -88,7 +88,7 @@ I design end-to-end intelligent systems — from raw bioacoustic recordings to C
 
 <br/>
 
-**Explainable AI · Data Science**<br/>
+**Explainable AI · Data Analytics**<br/>
 ![SHAP](https://img.shields.io/badge/SHAP-38BDF8?style=for-the-badge)
 ![LIME](https://img.shields.io/badge/LIME-F59E0B?style=for-the-badge)
 ![Grad-CAM](https://img.shields.io/badge/Grad--CAM-34D399?style=for-the-badge)
@@ -100,7 +100,7 @@ I design end-to-end intelligent systems — from raw bioacoustic recordings to C
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 💡 The AI → XAI Pipeline
+## 💡 How I Build AI Models
 
 <div align="center">
 <img src="assets/xai-pipeline-3d.svg" width="100%"/>
@@ -108,18 +108,18 @@ I design end-to-end intelligent systems — from raw bioacoustic recordings to C
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 🚀 Best Work — Project Showcase
+## 🚀 Key Projects
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
 ### 🐝 Beehive Health Monitoring
-**Bioacoustic Deep Learning · In Progress**
+**Bioacoustic Audio Deep Learning**
 
-Developing a **CNN/CRNN audio classification system** to detect queen bee presence and hive health anomalies from raw bioacoustic recordings. Core challenge: cross-hive generalization across diverse real-world environmental conditions.
+Building an audio AI model (CNN/CRNN) that analyzes beehive recordings to detect queen bee presence and health anomalies.
 
-> *Impact: Supports sustainable pollination and precision agriculture.*
+> *Helps improve agricultural health and pollination monitoring.*
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![CNN/CRNN](https://img.shields.io/badge/CNN_CRNN-818CF8?style=flat-square)
@@ -130,11 +130,11 @@ Developing a **CNN/CRNN audio classification system** to detect queen bee presen
 <td width="50%" valign="top">
 
 ### 🏛️ Architectural Building Classifier
-**EfficientNetV2 Transfer Learning**
+**EfficientNetV2 Image Classification**
 
-End-to-end computer vision pipeline for architectural building category classification using fine-tuned **EfficientNetV2** with advanced transfer learning techniques to achieve high precision.
+Created an image classification model using EfficientNetV2 transfer learning to accurately categorize different architectural styles.
 
-> *Demonstrates applied transfer learning in real-world visual domains.*
+> *Computer vision model built with PyTorch & OpenCV.*
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![EfficientNetV2](https://img.shields.io/badge/EfficientNetV2-C084FC?style=flat-square)
@@ -147,11 +147,11 @@ End-to-end computer vision pipeline for architectural building category classifi
 <td width="50%" valign="top">
 
 ### 🎭 Emotion Classifier from Text
-**NLP · Scikit-Learn · 92% Accuracy**
+**NLP & Machine Learning · 92% Accuracy**
 
-Supervised text classification model achieving **92% accuracy** in detecting emotional sentiment from written content. Paired with a live web interface and real-time prediction visualization dashboard.
+Built a text sentiment model in Python achieving **92% classification accuracy**, complete with an interactive web dashboard for real-time predictions.
 
-> *Showcases NLP pipeline mastery end-to-end.*
+> *Simple, accurate text sentiment analysis dashboard.*
 
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![NLP](https://img.shields.io/badge/NLP-38BDF8?style=flat-square)
@@ -160,12 +160,12 @@ Supervised text classification model achieving **92% accuracy** in detecting emo
 </td>
 <td width="50%" valign="top">
 
-### 🚚 Smart Logistics Optimization
-**AI-Driven Autonomous Delivery**
+### 🚚 Smart Logistics Route Optimization
+**Autonomous Delivery Route Simulation**
 
-Urban shortest-route optimization simulation using **Dijkstra's Algorithm** with dynamic simulation of weather, temperature, and wind variables affecting autonomous delivery vehicle performance.
+Developed a delivery route optimization model using Dijkstra's Algorithm, factoring in real-world weather, wind, and temperature variables.
 
-> *Demonstrates algorithmic thinking applied to smart city challenges.*
+> *Simulates optimal delivery paths under changing weather conditions.*
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Dijkstra](https://img.shields.io/badge/Dijkstra's_Algo-F59E0B?style=flat-square)
@@ -177,12 +177,12 @@ Urban shortest-route optimization simulation using **Dijkstra's Algorithm** with
 <tr>
 <td width="50%" valign="top">
 
-### 👩‍💼 SheWorks — Women Employment Engine
-**Statistical Job Matching Platform**
+### 👩‍💼 SheWorks — Women Employment Matching
+**Statistical Job Matcher**
 
-Statistical matching engine connecting under-resourced women to suitable employment opportunities. Multi-variable demographic and skill-gap analysis drives personalised job recommendations.
+Designed a job matching engine that uses demographic and skill analysis to help less-educated women find suitable local jobs.
 
-> *Statistics applied for measurable social equity impact.*
+> *Using statistical data matching to help women find employment.*
 
 ![Statistics](https://img.shields.io/badge/Statistics-38BDF8?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -191,12 +191,12 @@ Statistical matching engine connecting under-resourced women to suitable employm
 </td>
 <td width="50%" valign="top">
 
-### 🐾 PawKart — AI Pet Retail
-**Demand Forecasting · Comedkares Internship**
+### 🐾 PawKart — AI Pet Retail Platform
+**Demand Forecasting · AI/ML Internship**
 
-Contributed to PawKart, an AI-powered pet retail platform, building demand forecasting models, empathy-mapped UI/UX prototypes, and go-to-market strategy during a 5-week intensive AI/ML internship.
+Developed AI demand forecasting models and UI/UX prototypes for PawKart during a 5-week internship at Comedkares Innovation Hub.
 
-> *Real-world cross-functional team experience in AI product development.*
+> *Hands-on experience building AI retail prototypes in a team.*
 
 ![AI/ML](https://img.shields.io/badge/AI_Internship-EE4C2C?style=flat-square)
 ![Forecasting](https://img.shields.io/badge/Demand_Forecasting-34D399?style=flat-square)
@@ -208,7 +208,7 @@ Contributed to PawKart, an AI-powered pet retail platform, building demand forec
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 📊 Live GitHub Intelligence
+## 📊 Live GitHub Activity
 
 <div align="center">
 
@@ -234,7 +234,7 @@ Contributed to PawKart, an AI-powered pet retail platform, building demand forec
 
 <br/>
 
-**🐍 Contribution Matrix**
+**🐍 Contribution Graph**
 
 <img src="https://raw.githubusercontent.com/araly-akanksha/araly-akanksha/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation"/>
 
@@ -242,51 +242,49 @@ Contributed to PawKart, an AI-powered pet retail platform, building demand forec
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 🎓 Education, Experience & Leadership
+## 🎓 Education & Experience
 
 <details>
 <summary><b>🎓 Academic Qualifications</b></summary>
 <br/>
 
-| Degree | Institution | Year | Result |
+| Degree | Institution | Year | Performance |
 |:--|:--|:--|:--|
 | **MSc Big Data Analytics** | St. Joseph's University, Bangalore | 2025 – Present | Pursuing |
-| **BSc — CS, Statistics, Economics** | Andhra Loyola College, Vijayawada | 2025 | CGPA 7.09 |
+| **BSc (CS, Statistics, Economics)** | Andhra Loyola College, Vijayawada | 2025 | CGPA 7.09 |
 | **Class XII (ISC)** | Loyola School, Jamshedpur | 2022 | 74% |
 | **Class X (ICSE)** | Loyola School, Jamshedpur | 2020 | 76% |
 
 </details>
 
 <details>
-<summary><b>💼 Work Experience</b></summary>
+<summary><b>💼 Work & Internship Experience</b></summary>
 <br/>
 
 **🤖 AI/ML Intern — Comedkares Innovation Hub, Bangalore** *(5 weeks)*
-- Contributed to **PawKart** AI pet retail platform across demand forecasting, UI/UX, and GTM strategy.
-- Applied data preprocessing, feature engineering, and model development to build production AI prototypes.
-- Cross-functional collaboration via empathy mapping, ideation sprints, and rapid prototyping.
+- Built demand forecasting models and UI/UX prototypes for **PawKart** pet retail platform.
+- Applied data preprocessing and feature engineering for AI prototype development.
 
 **📈 Business Development Specialist — Younity Community Pvt Ltd**
-- Market research and business data collection to support client acquisition and expansion strategy.
+- Market research and business data collection to support client growth strategy.
 
 **👥 HR Team Leader — Younity Community Pvt Ltd**
-- Led and managed a team of **40 interns**, coordinating tasks and ensuring workflow efficiency.
-- Delivered onboarding, training, and performance monitoring for new team members.
+- Managed a team of **40 interns**, coordinating weekly tasks and workflow operations.
 
 </details>
 
 <details>
-<summary><b>🏆 Leadership, Awards & Extracurriculars</b></summary>
+<summary><b>🏆 Leadership & Achievements</b></summary>
 <br/>
 
 | Role | Organization | Achievement |
 |:--|:--|:--|
-| 🏀 **Basketball Player** | Andhra Loyola College | **1st Place** — Inter-Collegiate (Year 1) · 2nd Place (Year 2) |
-| 👔 **Class Representative** | Andhra Loyola College | 3 consecutive years as faculty-student liaison |
-| 🎭 **President, Entertainment Club** | Andhra Loyola College | Led cultural events and student engagement |
-| 📢 **Communication Coordinator** | AICUF Student Council | Cross-faculty communication and council management |
-| 📣 **Marketing Team** | Metaminds, SJU | Promotional and event management initiatives |
-| 🎲 **Volunteer** | TTOX Board Games Expo | Event coordination and attendee management |
+| 🏀 **Basketball Team Member** | Andhra Loyola College | **1st Place** — Inter-Collegiate (Year 1) · 2nd Place (Year 2) |
+| 👔 **Class Representative** | Andhra Loyola College | 3 consecutive years serving as student liaison |
+| 🎭 **President, Entertainment Club** | Andhra Loyola College | Planned and managed student cultural events |
+| 📢 **Communication Coordinator** | AICUF Student Council | Managed communications across student council |
+| 📣 **Marketing Team** | Metaminds, SJU | Managed promotional activities for department events |
+| 🎲 **Volunteer** | TTOX Board Games Expo | Event coordination and player management |
 
 </details>
 
@@ -308,7 +306,7 @@ Contributed to PawKart, an AI-powered pet retail platform, building demand forec
 
 <div align="center">
 
-### 📫 Let's Build Something Remarkable Together
+### 📫 Let's Connect!
 
 <a href="https://linkedin.com/in/araly-akanksha-naidu" target="_blank"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
 <a href="mailto:aralyakankshan@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
@@ -316,7 +314,7 @@ Contributed to PawKart, an AI-powered pet retail platform, building demand forec
 
 <br/><br/>
 
-*"Transforming raw data into transparent, explainable, and high-impact AI intelligence."*
+*"Turning raw data into clear, explainable, and high-impact AI solutions."*
 
 <br/>
 
