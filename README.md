@@ -3,7 +3,7 @@
 # 👋 Hi, I'm Akanksha Naidu
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=00D2FF&center=true&vCenter=true&width=650&height=50&lines=MSc+Big+Data+Analytics+Student+%F0%9F%8E%93;Passionate+about+Data+Analytics+%26+ML+%F0%9F%9A%80;Strong+in+Python%2C+SQL%2C+and+Statistics+%F0%9F%93%8A;Interested+in+solving+real-world+problems+using+data+%F0%9F%8C%8D" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=00D2FF&center=true&vCenter=true&width=650&height=50&lines=MSc+Big+Data+Analytics+Student+%F0%9F%8E%93;Bridging+ML+depth+with+explainability+%26+impact+%F0%9F%94%8D;Strong+in+Python%2C+SQL%2C+and+Statistics+%F0%9F%93%8A;Interested+in+solving+real-world+problems+using+data+%F0%9F%8C%8D" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -20,10 +20,32 @@
 
 ## 🚀 About Me
 
-> 💡 **Passionate about Data Analytics & Machine Learning**  
+> 💡 **Bridging technical ML depth with explainability and real-world impact**  
 > 🐍 **Strong in Python, SQL, and Statistics**  
 > 🌍 **Interested in solving real-world problems using data**  
 > 🎓 **MSc Big Data Analytics Student** based in **India**
+
+---
+
+## 🎓 Education
+
+- **MSc Big Data Analytics** — St. Joseph's University, Bangalore *(current)*
+- **Triple Major: Computer Science, Statistics & Economics** — Krishna University
+
+---
+
+## 💼 Experience
+
+**AI/ML Intern @ Comedkares Innovation Hub**
+Worked on **PawKart**, an AI-powered pet retail platform, contributing to demand forecasting models, UI design, and go-to-market materials as part of a cross-functional team.
+
+---
+
+## 🔬 Currently Building
+
+- 🐝 **Beehive Health Monitoring** — deep learning for bioacoustic classification (queen-presence detection & anomaly classification), with a focus on the cross-hive generalization problem
+- 🧠 **Explainable AI (XAI)** — working with SHAP, LIME, and Grad-CAM across health and fraud-detection domains
+- 🏛️ **EfficientNetV2 image classification** — transfer learning pipelines for architectural building classification
 
 ---
 
@@ -35,10 +57,19 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
 
+### **Deep Learning & ML**
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+
 ### **Libraries**
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+
+### **Explainability**
+<img src="https://img.shields.io/badge/SHAP-8A2BE2?style=for-the-badge" alt="SHAP" />
+<img src="https://img.shields.io/badge/LIME-9370DB?style=for-the-badge" alt="LIME" />
+<img src="https://img.shields.io/badge/Grad--CAM-7B68EE?style=for-the-badge" alt="Grad-CAM" />
 
 ### **Tools**
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" />
