@@ -7,7 +7,7 @@
 
   <!-- Dynamic Typing Header SVG -->
   <a href="https://github.com/araly-akanksha">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi+%F0%9F%90%9D%2C+I'm+Araly+Akanksha+Naidu!;Data+Scientist+%26+MSc+Big+Data+Analytics+Student+%F0%9F%93%8A;Deep+Learning+%26+Bioacoustics+Specialist+%F0%9F%A7%A0;Explainable+AI+Enthusiast+(SHAP%2C+LIME%2C+Grad-CAM)+%F0%9F%92%A1;Triple+Major+in+CS%2C+Statistics+%26+Economics+%F0%9F%8E%93" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi+%F0%9F%90%9D%2C+I%27m+Araly+Akanksha+Naidu!;Data+Scientist+%26+MSc+Big+Data+Analytics+Student+%F0%9F%93%8A;Deep+Learning+%26+Bioacoustics+Specialist+%F0%9F%A7%A0;Explainable+AI+Enthusiast+(SHAP%2C+LIME%2C+Grad-CAM)+%F0%9F%92%A1;Triple+Major+in+CS%2C+Statistics+%26+Economics+%F0%9F%8E%93" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -33,8 +33,8 @@
 
 ## ⚡ About Me
 
-<p stroke="#38bdf8">
-I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at St. Joseph's University, Bangalore, with a strong triple-major foundation in <b>Computer Science, Statistics, and Economics</b>. 
+<p align="left">
+I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at St. Joseph's University, Bangalore, with a strong triple-major foundation in <b>Computer Science, Statistics, and Economics</b> (BSc from Andhra Loyola College).
 </p>
 
 - 🎓 **Current Academic Pursuits**: MSc in Big Data Analytics @ St. Joseph's University, Bangalore.
@@ -162,7 +162,7 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
         <li>Applied multi-variable demographic and skill analysis to align candidate profiles with job prerequisites.</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Statistics-38BDF8?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Statistics-38BDF8?style=flat-square&logo=chart-line&logoColor=white"/>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
       </p>
@@ -191,15 +191,15 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=araly-akanksha&show_icons=true&theme=dark&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=818cf8&text_color=cbd5e1" alt="GitHub Stats" width="400"/>
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=araly-akanksha&show_icons=true&theme=dark&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=818cf8&text_color=cbd5e1" alt="GitHub Stats" width="400"/>
       </td>
       <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=araly-akanksha&theme=dark&hide_border=true&background=0f172a&stroke=38bdf8&alarm=c084fc" alt="GitHub Streak" width="400"/>
+        <img src="https://streak-stats.demolab.com/?user=araly-akanksha&theme=dark&hide_border=true&background=0f172a&stroke=38bdf8&alarm=c084fc" alt="GitHub Streak" width="400"/>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=araly-akanksha&layout=compact&theme=dark&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=cbd5e1" alt="Top Languages" width="400"/>
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=araly-akanksha&layout=compact&theme=dark&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=cbd5e1" alt="Top Languages" width="400"/>
       </td>
     </tr>
   </table>
@@ -209,7 +209,7 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
   <!-- Contribution Snake GIF -->
   <p align="center">
     <b>🐍 GitHub Contribution Graph Matrix</b><br/><br/>
-    <img src="https://raw.githubusercontent.com/araly-akanksha/araly-akanksha/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%"/>
+    <img src="https://raw.githubusercontent.com/araly-akanksha/araly-akanksha/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
   </p>
 </div>
 
