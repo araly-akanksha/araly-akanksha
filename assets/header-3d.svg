@@ -87,7 +87,7 @@
   <ellipse cx="400" cy="440" rx="220" ry="80" fill="#6d28d9" opacity="0.10" filter="url(#f-glow-xl)"/>
 
   <!-- ── Constellation Neural Network (Right) ── -->
-  <g transform="translate(636, 52)">
+  <g transform="translate(636, 45)">
     <!-- Constellation edges -->
     <g stroke="url(#aurora)" stroke-width="1.5" opacity="0.5" fill="none">
       <line x1="158" y1="28" x2="82" y2="88"/>
@@ -105,16 +105,16 @@
     </g>
 
     <!-- Bioacoustic waveform bars -->
-    <g transform="translate(30, 302)" filter="url(#f-glow-sm)">
-      <rect x="0"  y="30" width="6" height="30" rx="3" fill="#38bdf8"/>
-      <rect x="12" y="16" width="6" height="58" rx="3" fill="#818cf8"/>
-      <rect x="24" y="4"  width="6" height="82" rx="3" fill="#c084fc"/>
-      <rect x="36" y="22" width="6" height="46" rx="3" fill="#38bdf8"/>
-      <rect x="48" y="38" width="6" height="14" rx="3" fill="#34d399"/>
-      <rect x="60" y="10" width="6" height="70" rx="3" fill="#fbbf24"/>
-      <rect x="72" y="26" width="6" height="38" rx="3" fill="#818cf8"/>
-      <rect x="84" y="42" width="6" height="6"  rx="3" fill="#38bdf8"/>
-      <text x="46" y="108" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle" letter-spacing="1">BIOACOUSTIC SIGNAL</text>
+    <g transform="translate(30, 275)" filter="url(#f-glow-sm)">
+      <rect x="0"  y="24" width="6" height="30" rx="3" fill="#38bdf8"/>
+      <rect x="12" y="12" width="6" height="54" rx="3" fill="#818cf8"/>
+      <rect x="24" y="0"  width="6" height="78" rx="3" fill="#c084fc"/>
+      <rect x="36" y="18" width="6" height="42" rx="3" fill="#38bdf8"/>
+      <rect x="48" y="32" width="6" height="14" rx="3" fill="#34d399"/>
+      <rect x="60" y="8"  width="6" height="66" rx="3" fill="#fbbf24"/>
+      <rect x="72" y="22" width="6" height="38" rx="3" fill="#818cf8"/>
+      <rect x="84" y="36" width="6" height="6"  rx="3" fill="#38bdf8"/>
+      <text x="46" y="98" font-family="'Segoe UI', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle" letter-spacing="1">BIOACOUSTIC SIGNAL</text>
     </g>
 
     <!-- Orbital rings around hub -->
@@ -144,13 +144,13 @@
     <circle cx="158" cy="28" r="16" fill="none" stroke="#38bdf8" stroke-width="2" filter="url(#f-glow-sm)"/>
     <circle cx="158" cy="28" r="7" fill="#38bdf8"/>
 
-    <!-- Floating badge -->
-    <g transform="translate(24, 380)" filter="url(#f-shadow-sm)">
-      <rect x="0" y="0" width="280" height="58" rx="29" fill="url(#glass-blue)" stroke="rgba(56,189,248,0.4)" stroke-width="1.5"/>
-      <circle cx="33" cy="29" r="16" fill="rgba(52,211,153,0.2)" stroke="#34d399" stroke-width="1.5"/>
-      <text x="33" y="35" font-size="16" text-anchor="middle" fill="#fff">🐝</text>
-      <text x="62" y="25" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#fff">Bioacoustic AI Research</text>
-      <text x="62" y="43" font-family="'Segoe UI', sans-serif" font-size="11" fill="#94a3b8">CNN • CRNN • SHAP • Grad-CAM</text>
+    <!-- Floating badge (adjusted y to stay comfortably inside viewBox) -->
+    <g transform="translate(24, 335)" filter="url(#f-shadow-sm)">
+      <rect x="0" y="0" width="280" height="52" rx="26" fill="url(#glass-blue)" stroke="rgba(56,189,248,0.4)" stroke-width="1.5"/>
+      <circle cx="30" cy="26" r="14" fill="rgba(52,211,153,0.2)" stroke="#34d399" stroke-width="1.5"/>
+      <text x="30" y="31" font-size="15" text-anchor="middle" fill="#fff">🐝</text>
+      <text x="56" y="22" font-family="'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#fff">Bioacoustic AI Research</text>
+      <text x="56" y="38" font-family="'Segoe UI', sans-serif" font-size="10.5" fill="#94a3b8">CNN • CRNN • SHAP • Grad-CAM</text>
     </g>
   </g>
 

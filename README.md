@@ -9,7 +9,7 @@
 
 <!-- Animated Typing SVG -->
 <a href="https://github.com/araly-akanksha">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%90%9D+I%27m+Araly+Akanksha+Naidu!;MSc+Big+Data+Analytics+%7C+SJU+Bangalore+%F0%9F%8E%93;Bioacoustic+Deep+Learning+Researcher+%F0%9F%A7%A0;Explainable+AI+%E2%80%94+SHAP+%C2%B7+LIME+%C2%B7+Grad-CAM+%F0%9F%92%A1;Triple+Major+%E2%80%94+CS+%C2%B7+Statistics+%C2%B7+Economics+%F0%9F%93%8A;Open+to+Data+Scientist+%7C+Analyst+Roles+%F0%9F%9A%80" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Araly+Akanksha+Naidu!;MSc+Big+Data+Analytics+at+St.+Joseph%27s+University;Data+Scientist+and+Deep+Learning+Researcher;Explainable+AI+--+SHAP+|+LIME+|+Grad-CAM;Triple+Major+in+CS%2C+Statistics+and+Economics;Open+to+Data+Scientist+and+ML+Roles" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
