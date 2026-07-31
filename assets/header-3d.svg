@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="100%" height="100%">
+  <defs>
+    <!-- Dark Glass Gradient Background -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="40%" stop-color="#111827"/>
+      <stop offset="80%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Neon Accents Gradients -->
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="gold-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <linearGradient id="card-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+
+    <!-- Filters for 3D Glow and Shadow -->
+    <filter id="neon-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="drop-3d" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="420" rx="20" fill="url(#bg-grad)"/>
+
+  <!-- Decorative Grid Pattern -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40"/>
+    </pattern>
+    <rect width="1000" height="420" fill="url(#grid)"/>
+  </g>
+
+  <!-- Background Ambient Glowing Orbs -->
+  <circle cx="150" cy="100" r="180" fill="#38bdf8" opacity="0.15" filter="url(#neon-shadow)"/>
+  <circle cx="850" cy="300" r="200" fill="#c084fc" opacity="0.18" filter="url(#neon-shadow)"/>
+  <circle cx="500" cy="200" r="140" fill="#f59e0b" opacity="0.10" filter="url(#neon-shadow)"/>
+
+  <!-- 3D Isometric Mesh Network Graphic (Right Side) -->
+  <g transform="translate(680, 80)" filter="url(#drop-3d)">
+    <!-- Connections -->
+    <path d="M 50 40 L 150 10 L 230 70 L 170 160 L 70 140 Z" fill="none" stroke="url(#primary-glow)" stroke-width="2" opacity="0.6"/>
+    <path d="M 150 10 L 150 100 L 70 140" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.7"/>
+    <path d="M 150 100 L 230 70" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.7"/>
+    <path d="M 150 100 L 170 160" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Isometric Cubes / Nodes -->
+    <!-- Node 1 -->
+    <g transform="translate(150, 10)">
+      <circle r="14" fill="#1e1b4b" stroke="#38bdf8" stroke-width="3" filter="url(#soft-glow)"/>
+      <circle r="6" fill="#38bdf8"/>
+    </g>
+    <!-- Node 2 -->
+    <g transform="translate(230, 70)">
+      <circle r="12" fill="#1e1b4b" stroke="#c084fc" stroke-width="3" filter="url(#soft-glow)"/>
+      <circle r="5" fill="#c084fc"/>
+    </g>
+    <!-- Node 3 -->
+    <g transform="translate(170, 160)">
+      <circle r="16" fill="#1e1b4b" stroke="#fbbf24" stroke-width="3" filter="url(#soft-glow)"/>
+      <circle r="7" fill="#fbbf24"/>
+    </g>
+    <!-- Node 4 -->
+    <g transform="translate(70, 140)">
+      <circle r="12" fill="#1e1b4b" stroke="#34d399" stroke-width="3" filter="url(#soft-glow)"/>
+      <circle r="5" fill="#34d399"/>
+    </g>
+    <!-- Center Node (Core AI) -->
+    <g transform="translate(150, 100)">
+      <circle r="22" fill="#0f172a" stroke="url(#primary-glow)" stroke-width="4" filter="url(#neon-shadow)"/>
+      <circle r="10" fill="#38bdf8"/>
+    </g>
+
+    <!-- Floating 3D Badge (Bioacoustics & XAI) -->
+    <g transform="translate(30, 210)" filter="url(#drop-3d)">
+      <rect x="0" y="0" width="220" height="48" rx="24" fill="url(#card-glass)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+      <circle cx="28" cy="24" r="12" fill="#10b981" filter="url(#soft-glow)"/>
+      <text x="28" y="29" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">🐝</text>
+      <text x="50" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Bioacoustic DL &amp; XAI</text>
+      <text x="50" y="37" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8">CNN • EfficientNet • SHAP</text>
+    </g>
+  </g>
+
+  <!-- Left Side Content Panel -->
+  <g transform="translate(60, 65)">
+    <!-- Top Pill Badge -->
+    <g filter="url(#drop-3d)">
+      <rect x="0" y="0" width="310" height="34" rx="17" fill="rgba(56, 189, 248, 0.12)" stroke="#38bdf8" stroke-width="1.5"/>
+      <circle cx="18" cy="17" r="5" fill="#34d399" filter="url(#soft-glow)"/>
+      <text x="32" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="1">
+        MSc BIG DATA ANALYTICS @ SJU
+      </text>
+    </g>
+
+    <!-- Main Title: ARALY AKANKSHA NAIDU -->
+    <text x="0" y="95" font-family="'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="42" font-weight="900" fill="#ffffff" filter="url(#drop-3d)" letter-spacing="-0.5">
+      Araly Akanksha Naidu
+    </text>
+
+    <!-- Dynamic Subtitle Gradient Bar -->
+    <text x="0" y="132" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="url(#primary-glow)" filter="url(#soft-glow)">
+      Data Scientist &amp; Deep Learning Researcher
+    </text>
+
+    <!-- Description Paragraph -->
+    <text x="0" y="168" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#cbd5e1" width="550">
+      <tspan x="0" dy="0">Triple-Major Foundation in Computer Science, Statistics &amp; Economics.</tspan>
+      <tspan x="0" dy="22">Specializing in Bioacoustic AI, Transfer Learning, and Explainable AI (XAI).</tspan>
+    </text>
+
+    <!-- 3D Pill Tags (Tech Stack Quick View) -->
+    <g transform="translate(0, 215)" filter="url(#drop-3d)">
+      <!-- Tag 1: Python -->
+      <rect x="0" y="0" width="105" height="36" rx="12" fill="url(#card-glass)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1.5"/>
+      <text x="18" y="23" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38bdf8">🐍 Python</text>
+
+      <!-- Tag 2: PyTorch & TF -->
+      <rect x="115" y="0" width="145" height="36" rx="12" fill="url(#card-glass)" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1.5"/>
+      <text x="130" y="23" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#c084fc">🔥 PyTorch / TF</text>
+
+      <!-- Tag 3: XAI -->
+      <rect x="270" y="0" width="165" height="36" rx="12" fill="url(#card-glass)" stroke="rgba(251, 191, 36, 0.4)" stroke-width="1.5"/>
+      <text x="285" y="23" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#fbbf24">💡 SHAP • LIME</text>
+    </g>
+
+    <!-- Status & Location Row -->
+    <g transform="translate(0, 275)">
+      <text x="0" y="16" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#94a3b8">
+        📍 Bangalore, India &amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp; 🎓 MSc BDA @ St. Joseph's University &amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp; 🚀 Open to AI/ML Roles
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Glowing Edge Divider Bar -->
+  <rect x="0" y="415" width="1000" height="5" fill="url(#primary-glow)"/>
+</svg>
