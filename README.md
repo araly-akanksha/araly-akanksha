@@ -194,7 +194,7 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
         <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=araly-akanksha&show_icons=true&theme=dark&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=818cf8&text_color=cbd5e1" alt="GitHub Stats" width="400"/>
       </td>
       <td>
-        <img src="https://streak-stats.demolab.com/?user=araly-akanksha&theme=dark&hide_border=true&background=0f172a&stroke=38bdf8&alarm=c084fc" alt="GitHub Streak" width="400"/>
+        <img src="https://github-readme-streak-stats-sigma.vercel.app/?user=araly-akanksha&theme=dark&hide_border=true&background=0f172a&stroke=38bdf8&ring=38bdf8&fire=38bdf8&currStreakNum=38bdf8&sideNums=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=94a3b8" alt="GitHub Streak" width="400"/>
       </td>
     </tr>
     <tr>
@@ -203,6 +203,13 @@ I am a passionate <b>Data Professional and MSc Big Data Analytics student</b> at
       </td>
     </tr>
   </table>
+
+  <br/>
+
+  <!-- Live Activity Graph -->
+  <p align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=araly-akanksha&theme=react-dark&bg_color=0f172a&color=38bdf8&line=818cf8&point=c084fc&hide_border=true" alt="Activity Graph" width="100%"/>
+  </p>
 
   <br/>
 
