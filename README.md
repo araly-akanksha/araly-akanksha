@@ -47,6 +47,10 @@ I am a **Data Scientist and MSc Big Data Analytics student** at St. Joseph's Uni
 ## 🛠️ 3D Tech Stack & Toolkit
 
 <div align="center">
+  <!-- 3D Isometric Tech Stack Banner -->
+  <img src="assets/tech-stack-3d.svg" alt="3D Tech Stack Banner" width="100%" />
+
+  <br/><br/>
 
 ### 💻 Programming Languages & Databases
 <p>
