@@ -9,17 +9,17 @@
 
 <!-- Animated Typing SVG -->
 <a href="https://github.com/araly-akanksha">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Araly+Akanksha+Naidu!;MSc+Big+Data+Analytics+at+St.+Joseph%27s+University;Data+Scientist+and+Deep+Learning+Researcher;Explainable+AI+--+SHAP+|+LIME+|+Grad-CAM;Triple+Major+in+CS%2C+Statistics+and+Economics;Open+to+Data+Scientist+and+ML+Roles" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi%2C+I%27m+Araly+Akanksha+Naidu!;MSc+Big+Data+Analytics+at+St.+Joseph%27s+University;Data+Scientist+and+ML+Researcher;Generative+AI+--+Prompt+Engineering+--+Google+AI;Explainable+AI+--+SHAP+|+LIME+|+Grad-CAM;Open+to+Data+Scientist+and+ML+Analyst+Roles" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
 <!-- Social / Status Pills -->
 <a href="https://linkedin.com/in/araly-akanksha-naidu" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="mailto:aralyakankshan@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="mailto:aralyakankshanaidu@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
 <a href="https://github.com/araly-akanksha"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
-<img src="https://img.shields.io/badge/📍_Bangalore-India-38BDF8?style=for-the-badge"/>&nbsp;
-<img src="https://img.shields.io/badge/🚀_Status-Open_to_AI_%2F_ML_Roles-34D399?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Bengaluru-India-38BDF8?style=for-the-badge"/>&nbsp;
+<img src="https://img.shields.io/badge/Status-Open_to_ML_%2F_Data_Roles-34D399?style=for-the-badge"/>
 
 <br/>
 
@@ -37,9 +37,9 @@
 
 > *"Turning complex data into clear, explainable, and practical AI solutions."*
 
-I am an **MSc Big Data Analytics student** at **St. Joseph's University, Bangalore**, with a background in **Computer Science, Statistics, and Economics** from Andhra Loyola College.
+I am an **MSc Big Data Analytics student** at **St. Joseph's University, Bengaluru**, with a multidisciplinary background in **Computer Science, Statistics, and Economics** from Andhra Loyola College.
 
-I build machine learning models and data pipelines — specializing in audio deep learning, computer vision, and explainable AI (XAI) to ensure models are accurate, transparent, and easy to understand.
+Skilled in Python, SQL, Pandas, NumPy, and Scikit-learn — with hands-on experience in data analysis, machine learning, NLP, predictive modeling, Generative AI, and AI-driven applications. Currently exploring **Explainable AI and Deep Learning** for healthcare and bioacoustic research.
 
 </td>
 <td width="40%" align="center" valign="top">
@@ -49,11 +49,11 @@ I build machine learning models and data pipelines — specializing in audio dee
 | | |
 |:--|:--|
 | 🎓 Degree | MSc Big Data Analytics |
-| 🏛️ University | St. Joseph's Univ., Bangalore |
-| 🧠 Focus | Deep Learning & Explainable AI |
-| 📈 Highlight | 92% NLP Classification Model |
-| 🏀 Achievement | Inter-Collegiate Basketball Champion 🥇 |
-| 🌍 Location | Bangalore, India |
+| 🏛️ University | St. Joseph's Univ., Bengaluru |
+| 🧠 Focus | ML · Generative AI · XAI |
+| 📈 Highlight | 92.46% Emotion Classification |
+| 🤖 AI Tools | Google AI · Prompt Engineering |
+| 🌍 Location | Bengaluru, India |
 
 </td>
 </tr>
@@ -69,32 +69,47 @@ I build machine learning models and data pipelines — specializing in audio dee
 
 <br/>
 
-**Languages & Databases**<br/>
+**Programming & Data Analysis**<br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Excel](https://img.shields.io/badge/Advanced_Excel-1D6F42?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 <br/>
 
-**Deep Learning & Machine Learning**<br/>
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+**Machine Learning & NLP**<br/>
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![CNN/CRNN](https://img.shields.io/badge/CNN_/_CRNN-818CF8?style=for-the-badge)
-![EfficientNetV2](https://img.shields.io/badge/EfficientNetV2-C084FC?style=for-the-badge)
+![NLP](https://img.shields.io/badge/NLP-818CF8?style=for-the-badge)
+![Predictive Modeling](https://img.shields.io/badge/Predictive_Modeling-C084FC?style=for-the-badge)
+![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-38BDF8?style=for-the-badge)
 
 <br/>
 
-**Explainable AI · Data Analytics**<br/>
+**Generative AI & AI Tools**<br/>
+![Generative AI](https://img.shields.io/badge/Generative_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-34D399?style=for-the-badge)
+![Google AI Tools](https://img.shields.io/badge/Google_AI_Tools-EA4335?style=for-the-badge&logo=google&logoColor=white)
+
+<br/>
+
+**Big Data, Databases & Visualization**<br/>
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Hive](https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+<br/>
+
+**Explainable AI · Tools**<br/>
 ![SHAP](https://img.shields.io/badge/SHAP-38BDF8?style=for-the-badge)
 ![LIME](https://img.shields.io/badge/LIME-F59E0B?style=for-the-badge)
 ![Grad-CAM](https://img.shields.io/badge/Grad--CAM-34D399?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Excel](https://img.shields.io/badge/Advanced_Excel-1D6F42?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
@@ -114,62 +129,63 @@ I build machine learning models and data pipelines — specializing in audio dee
 <tr>
 <td width="50%" valign="top">
 
-### 🐝 Beehive Health Monitoring
-**Bioacoustic Audio Deep Learning**
+### 🎭 Emotion Classification from Text
+**NLP & Machine Learning · 92.46% Accuracy**
 
-Building an audio AI model (CNN/CRNN) that analyzes beehive recordings to detect queen bee presence and health anomalies.
+Built a machine learning model using Python and Scikit-learn, achieving **92.46% accuracy** in emotion classification. Applied TF-IDF, lexicon-based features, Logistic Regression, and Naive Bayes. Deployed with a Streamlit web interface with live prediction and visualization dashboards.
 
-> *Helps improve agricultural health and pollination monitoring.*
+> *End-to-end NLP pipeline — from raw text to a live interactive dashboard.*
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![CNN/CRNN](https://img.shields.io/badge/CNN_CRNN-818CF8?style=flat-square)
-![Librosa](https://img.shields.io/badge/Librosa-38BDF8?style=flat-square)
-![In Progress](https://img.shields.io/badge/Status-In_Progress-fbbf24?style=flat-square)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-38BDF8?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Accuracy](https://img.shields.io/badge/Accuracy-92.46%25-34D399?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 🏛️ Architectural Building Classifier
-**EfficientNetV2 Image Classification**
+### 💡 Explainable AI for Healthcare
+**XAI · Deep Learning · Risk Prediction**
 
-Created an image classification model using EfficientNetV2 transfer learning to accurately categorize different architectural styles.
+Explored Deep Learning and Explainable AI (XAI) approaches for healthcare risk prediction and interpretable decision support. Investigated Grad-CAM-based explainability, uncertainty estimation, and model interpretability to build transparent AI systems.
 
-> *Computer vision model built with PyTorch & OpenCV.*
+> *Making AI predictions trustworthy, transparent, and interpretable.*
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![EfficientNetV2](https://img.shields.io/badge/EfficientNetV2-C084FC?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![XAI](https://img.shields.io/badge/Explainable_AI-818CF8?style=flat-square)
+![Grad-CAM](https://img.shields.io/badge/Grad--CAM-34D399?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-38BDF8?style=flat-square)
 
 </td>
 </tr>
 
 <tr>
-<td width="50%" valign="top">
-
-### 🎭 Emotion Classifier from Text
-**NLP & Machine Learning · 92% Accuracy**
-
-Built a text sentiment model in Python achieving **92% classification accuracy**, complete with an interactive web dashboard for real-time predictions.
-
-> *Simple, accurate text sentiment analysis dashboard.*
-
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-38BDF8?style=flat-square)
-![Accuracy](https://img.shields.io/badge/Accuracy-92%25-34D399?style=flat-square)
-
-</td>
 <td width="50%" valign="top">
 
 ### 🚚 Smart Logistics Route Optimization
 **Autonomous Delivery Route Simulation**
 
-Developed a delivery route optimization model using Dijkstra's Algorithm, factoring in real-world weather, wind, and temperature variables.
+Developed a simulation model for autonomous delivery systems using Python, OSMnx, NetworkX, and Streamlit. Implemented Dijkstra's Algorithm with dynamic routing factoring in weather, traffic, and vehicle constraints.
 
-> *Simulates optimal delivery paths under changing weather conditions.*
+> *Simulates optimal delivery paths under real-world urban conditions.*
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Dijkstra](https://img.shields.io/badge/Dijkstra's_Algo-F59E0B?style=flat-square)
-![Simulation](https://img.shields.io/badge/Simulation-818CF8?style=flat-square)
+![OSMnx](https://img.shields.io/badge/OSMnx-38BDF8?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-F59E0B?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### 🐾 PawKart — AI Pet Retail Platform
+**Demand Forecasting · AI/ML Internship**
+
+Contributed to an AI-powered pet retail platform, building demand forecasting models, recommendation systems, and inventory analytics. Applied feature engineering, ML prototyping, and collaborated on UI/UX design and go-to-market strategy.
+
+> *Real-world AI product development in a cross-functional team.*
+
+![AI/ML](https://img.shields.io/badge/AI_Internship-EE4C2C?style=flat-square)
+![Forecasting](https://img.shields.io/badge/Demand_Forecasting-34D399?style=flat-square)
+![UI/UX](https://img.shields.io/badge/UI_UX-C084FC?style=flat-square)
 
 </td>
 </tr>
@@ -177,12 +193,12 @@ Developed a delivery route optimization model using Dijkstra's Algorithm, factor
 <tr>
 <td width="50%" valign="top">
 
-### 👩‍💼 SheWorks — Women Employment Matching
-**Statistical Job Matcher**
+### 👩‍💼 Women Employment Job Platform
+**Statistical Job Matching · SheWorks**
 
-Designed a job matching engine that uses demographic and skill analysis to help less-educated women find suitable local jobs.
+Developed a job search platform to help less-educated women identify suitable employment opportunities. Applied statistical analysis, data interpretation, and candidate-job matching to connect user profiles with relevant roles.
 
-> *Using statistical data matching to help women find employment.*
+> *Data-driven recommendations for improving employment accessibility.*
 
 ![Statistics](https://img.shields.io/badge/Statistics-38BDF8?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -191,16 +207,16 @@ Designed a job matching engine that uses demographic and skill analysis to help 
 </td>
 <td width="50%" valign="top">
 
-### 🐾 PawKart — AI Pet Retail Platform
-**Demand Forecasting · AI/ML Internship**
+### 🏙️ Geospatial & Recommendation Analytics
+**Data Visualization · PyDeck · Plotly**
 
-Developed AI demand forecasting models and UI/UX prototypes for PawKart during a 5-week internship at Comedkares Innovation Hub.
+Built geospatial analytics and recommendation system projects using PyDeck, Plotly, and Streamlit, exploring interactive data visualization and location-intelligence for business analytics use cases.
 
-> *Hands-on experience building AI retail prototypes in a team.*
+> *Turning location data into interactive, actionable visual insights.*
 
-![AI/ML](https://img.shields.io/badge/AI_Internship-EE4C2C?style=flat-square)
-![Forecasting](https://img.shields.io/badge/Demand_Forecasting-34D399?style=flat-square)
-![UI/UX](https://img.shields.io/badge/UI_UX-C084FC?style=flat-square)
+![PyDeck](https://img.shields.io/badge/PyDeck-818CF8?style=flat-square)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 </td>
 </tr>
@@ -242,7 +258,7 @@ Developed AI demand forecasting models and UI/UX prototypes for PawKart during a
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 🎓 Education & Experience
+## 🎓 Education, Experience & Certifications
 
 <details>
 <summary><b>🎓 Academic Qualifications</b></summary>
@@ -250,10 +266,8 @@ Developed AI demand forecasting models and UI/UX prototypes for PawKart during a
 
 | Degree | Institution | Year | Performance |
 |:--|:--|:--|:--|
-| **MSc Big Data Analytics** | St. Joseph's University, Bangalore | 2025 – Present | Pursuing |
+| **MSc Big Data Analytics** | St. Joseph's University, Bengaluru | 2025 – Present | Pursuing |
 | **BSc (CS, Statistics, Economics)** | Andhra Loyola College, Vijayawada | 2025 | CGPA 7.09 |
-| **Class XII (ISC)** | Loyola School, Jamshedpur | 2022 | 74% |
-| **Class X (ICSE)** | Loyola School, Jamshedpur | 2020 | 76% |
 
 </details>
 
@@ -261,15 +275,16 @@ Developed AI demand forecasting models and UI/UX prototypes for PawKart during a
 <summary><b>💼 Work & Internship Experience</b></summary>
 <br/>
 
-**🤖 AI/ML Intern — Comedkares Innovation Hub, Bangalore** *(5 weeks)*
-- Built demand forecasting models and UI/UX prototypes for **PawKart** pet retail platform.
-- Applied data preprocessing and feature engineering for AI prototype development.
+**🤖 AI/ML Intern — Comedkares Innovation Hub, Bengaluru**
+- Contributed to **PawKart**, an AI-powered pet retail platform, supporting demand forecasting, recommendation systems, inventory management, and data-driven retail solutions.
+- Performed data preprocessing, feature engineering, exploratory analysis, and model development to build practical AI/ML prototypes.
+- Applied Python, machine learning, and data visualization techniques to analyze retail data and generate actionable insights.
+- Collaborated on empathy mapping, ideation, prototyping, and UI/UX development; contributed to go-to-market strategy.
 
-**📈 Business Development Specialist — Younity Community Pvt Ltd**
-- Market research and business data collection to support client growth strategy.
-
-**👥 HR Team Leader — Younity Community Pvt Ltd**
-- Managed a team of **40 interns**, coordinating weekly tasks and workflow operations.
+**📈 Business Development Specialist Intern — Younity Community Pvt. Ltd.**
+- Conducted market research and business analysis to identify customer segments and growth opportunities.
+- Analyzed market data to support lead generation and strategic decision-making.
+- Assisted in developing business expansion strategies and outreach initiatives.
 
 </details>
 
@@ -280,11 +295,11 @@ Developed AI demand forecasting models and UI/UX prototypes for PawKart during a
 | Role | Organization | Achievement |
 |:--|:--|:--|
 | 🏀 **Basketball Team Member** | Andhra Loyola College | **1st Place** — Inter-Collegiate (Year 1) · 2nd Place (Year 2) |
-| 👔 **Class Representative** | Andhra Loyola College | 3 consecutive years serving as student liaison |
+| 👔 **Class Representative** | Andhra Loyola College | 3 consecutive years as faculty-student liaison |
 | 🎭 **President, Entertainment Club** | Andhra Loyola College | Planned and managed student cultural events |
 | 📢 **Communication Coordinator** | AICUF Student Council | Managed communications across student council |
 | 📣 **Marketing Team** | Metaminds, SJU | Managed promotional activities for department events |
-| 🎲 **Volunteer** | TTOX Board Games Expo | Event coordination and player management |
+| 🎲 **Volunteer** | TTOX Board Games Expo | Event coordination and attendee management |
 
 </details>
 
@@ -293,9 +308,12 @@ Developed AI demand forecasting models and UI/UX prototypes for PawKart during a
 <br/>
 
 **Certifications**
+- 🤖 Google AI Essentials — Google, Coursera
+- 💬 Google Prompting Essentials — Google, Coursera
+- 🧠 AI & Generative AI Certification Program — Indian Institute of Creative Technologies (IICT)
+- 🍃 Introduction to MongoDB for Students — MongoDB University
 - 📊 Excel: Basic to Advanced — Younity.in
 - 📱 Digital Marketing — Younity.in
-- 🍃 Introduction to MongoDB for Students — MongoDB University
 
 **Hobbies & Interests**
 > Board Games &nbsp;·&nbsp; Basketball &nbsp;·&nbsp; Dancing &nbsp;·&nbsp; Singing &nbsp;·&nbsp; Meditation
@@ -309,7 +327,7 @@ Developed AI demand forecasting models and UI/UX prototypes for PawKart during a
 ### 📫 Let's Connect!
 
 <a href="https://linkedin.com/in/araly-akanksha-naidu" target="_blank"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="mailto:aralyakankshan@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+<a href="mailto:aralyakankshanaidu@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
 <a href="https://github.com/araly-akanksha"><img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 <br/><br/>
